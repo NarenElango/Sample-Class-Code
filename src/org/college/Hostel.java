@@ -7,14 +7,15 @@ public class Hostel implements College, Student {
 	}
 
 	@Override
+
 	public void studentName() {
 		System.out.println("Student Name : Narendhiran");
 	}
 
-	@Override
-	public void studentDepartment() {
-		System.out.println("Department Name : AERONAUTICAL");
-	}
+	//@Override
+	//public void studentDepartment1() {
+	//	System.out.println("Department Name : AERONAUTICAL");
+	//}
 
 	@Override
 	public void studentId() {
@@ -29,6 +30,11 @@ public class Hostel implements College, Student {
 	@Override
 	public void collegeCode() {
 		// TODO Auto-generated method stub
+	}
+
+	public void studentDepartment() {
+		System.out.println("Department : AERONAUTICAL");
+		
 
 	}
 
