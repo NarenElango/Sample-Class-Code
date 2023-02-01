@@ -1,10 +1,10 @@
 package org.college;
 
-//public interface class College  {
+public interface College  {
 	
-  // public void collegeName() 
+   public void collegeName(); 
    
-    //public void collegeCode () 
+  public void collegeCode (); 
 	
     
 //    public static void main(String[] args) {
@@ -17,4 +17,4 @@ package org.college;
 	//}
     
 
-//}
+}

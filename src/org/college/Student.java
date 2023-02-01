@@ -1,10 +1,7 @@
 package org.college;
 
-public abstract class Student  {
-	public void studentName() {
-	  System.out.println("Name : Naren");
-	}
-	public void studentDepartment() {
-	System.out.println("Dept : AERONAUTICAL ");
-	}
+public interface Student  {
+	public void studentName(); 
+	public void studentDepartment();
+	public void studentId(); 
 }
