@@ -6,4 +6,10 @@ public class Hostel implements College , Student {
 
 	}
 
+	@Override
+	public void studentDepartment() {
+		System.out.println("Department : AERONAUTICAL");
+		
+	}
+
 }

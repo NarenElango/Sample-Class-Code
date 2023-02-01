@@ -1,6 +1,6 @@
 package org.college;
 
-//public interface class College  {
+public interface College  {
 	
   // public void collegeName() 
    
@@ -17,4 +17,4 @@ package org.college;
 	//}
     
 
-//}
+}
